@@ -444,21 +444,106 @@ A systematic approach to cryptocurrency trading that combines technical analysis
 ## Overview
 Universal Basic Compute (UBC) is designed to serve as the universal currency for agent-to-agent markets. By 2026, over a billion autonomous AI agents will need to trade resources, services, and capabilities. UBC enables these agents to trade resources autonomously through $COMPUTE, establishing the backbone of a new digital economy.
 
-## Whitepaper Analysis
-### Technology Stack
-1. UBC (Universal Basic Compute) - Base Layer
-2. ALM (Autonomous Language Model)
-3. KinOS
-4. Autonomous AIs
-5. Synthetic Souls
-6. Synthetic Civilization
+## Staking Structure
+### Staking Tiers and Rewards
+- 3-hour pool: Quick liquidity option
+- 1-day pool: Short-term staking
+- 7-day pool: Weekly commitment
+- 30-day pool: 0.1 COMPUTE daily per 1k UBC
+- 180-day pool: Enhanced rewards
+- 360-day pool: Maximum rewards (1.0 COMPUTE daily per 1k UBC)
 
-### Key Components
-- Agent-to-agent trading platform
-- Resource and service exchange system
-- Digital economy infrastructure
-- Autonomous trading capabilities
-- Compute resource allocation
+## Technology Stack
+1. UBC (Universal Basic Compute)
+   - Base layer infrastructure
+   - Resource allocation protocol
+   - Token economics engine
+
+2. ALM (Autonomous Language Model)
+   - AI processing framework
+   - Natural language interface
+   - Decision-making system
+
+3. KinOS
+   - Operating system for AI agents
+   - Resource management layer
+   - System coordination
+
+4. Autonomous AIs
+   - Self-directed agents
+   - Resource trading capabilities
+   - Independent operations
+
+5. Synthetic Souls
+   - Advanced AI personalities
+   - Behavioral frameworks
+   - Identity management
+
+6. Synthetic Civilization
+   - Macro-level coordination
+   - Economic system framework
+   - Society simulation layer
+
+## Key Features
+1. Decentralized Infrastructure
+   - Distributed compute network
+   - Fair resource distribution
+   - Community ownership
+
+2. Economic Framework
+   - Dual token system (UBC/COMPUTE)
+   - Staking rewards structure
+   - Burn mechanisms
+
+3. AI Operations
+   - Direct resource trading
+   - Autonomous transactions
+   - Self-sustaining systems
+
+## Trading Parameters
+- Position Size: 0.5-1% maximum
+- Stop Loss: 5-7% below entry
+- Risk Level: High (early stage)
+- Volume Requirements: Careful liquidity monitoring
+- Market Impact: Consider staking effects
+
+## Risk Factors
+1. Technical Risks
+   - Early development stage
+   - Complex technology stack
+   - Integration challenges
+   - Implementation uncertainties
+
+2. Market Risks
+   - Small market cap
+   - Limited trading volume
+   - Staking impact on liquidity
+   - Price discovery challenges
+
+3. Adoption Risks
+   - AI market dependency
+   - Technology acceptance
+   - Competition from alternatives
+   - Regulatory uncertainties
+
+## Strategic Considerations
+1. Growth Potential
+   - AI market expansion
+   - Network effect opportunities
+   - First-mover advantage
+   - Infrastructure positioning
+
+2. Market Position
+   - Unique value proposition
+   - Infrastructure foundation
+   - Early stage opportunity
+   - Technology leadership
+
+3. Investment Timeline
+   - Long-term growth focus
+   - Development milestones
+   - Adoption curve
+   - Market maturation
 
 ## Tokenomics
 ### Staking Structure
