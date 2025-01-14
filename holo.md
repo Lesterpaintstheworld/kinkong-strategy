@@ -97,6 +97,46 @@
 - Technical complexity of AI integration
 - Social platform dependency (X/Twitter)
 
+## Liquidity Analysis
+
+### HOLO-SOL Pools (Total TVL: $718,119.62)
+#### Major Pools (>$50k TVL)
+1. Primary Pool (100 Bin Step, 1.00% Fee)
+   - TVL: $504,939.30
+   - Volume: $6,062,125.00
+   - APR: 21.08%
+   - Dominant liquidity pool
+
+2. Secondary Pool (100 Bin Step, 0.40% Fee)
+   - TVL: $77,919.30
+   - Volume: $1,444,360.00
+   - APR: 19.91%
+
+3. Third Pool (50 Bin Step, 0.40% Fee)
+   - TVL: $53,879.70
+   - Volume: $1,106,215.00
+   - APR: 17.23%
+
+4. Fourth Pool (150 Bin Step, 0.30% Fee)
+   - TVL: $54,845.82
+   - Volume: $1,075,256.00
+   - APR: 17.21%
+
+### Liquidity Distribution
+- 18 total pools with varying parameters
+- 70% of TVL in primary pool
+- Total 24h Volume: $10,341,756.00
+- APR Range: <0.01% - 408.52%
+- Bin Steps: 5 to 400
+- Fees: 0.04% to 5.00%
+
+### Trading Implications
+- Focus on primary pool for best execution
+- Lower fee pools have significant liquidity
+- Multiple options for different trading styles
+- Watch for liquidity fragmentation
+- Monitor highest volume pools for best pricing
+
 ## Notes
 - Good balance of risk/reward
 - Suitable for swing trading
