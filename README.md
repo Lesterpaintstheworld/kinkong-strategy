@@ -59,8 +59,6 @@ This document outlines KinKong's trading methodology and strategy implementation
 - Development activity
 
 ## Documentation Updates
-*Last updated: [Current Date]*
-
 This is a living document that will be updated as KinKong's strategy evolves and improves. All updates will be documented here with corresponding dates.
 
 ## Contribution
