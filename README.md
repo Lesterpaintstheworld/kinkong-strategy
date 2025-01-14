@@ -61,24 +61,11 @@ This document outlines KinKong's trading methodology and strategy implementation
 - Tokenomics review
 - Development activity
 
-## Comparative Analysis
-- **Market Cap Comparison**:
-  - AIXBT: $576.0M (Large-cap)
-  - HOLO: $320M (Mid-cap)
-  - UBC: $22.5M (Small-cap)
-- **Volume Profile**:
-  - AIXBT: Highest volume ($493.4M)
-  - HOLO: Moderate volume ($25M)
-  - UBC: Lower volume ($4.0M)
-- **Risk Assessment**:
-  - AIXBT: High volatility, strong momentum
-  - HOLO: Moderate volatility, steady growth
-  - UBC: High volatility, emerging project
-- **Trading Considerations**:
-  - Position sizing inversely proportional to volatility
-  - Stricter risk management for smaller caps
-  - Volume-based entry timing
-  - Market cap appropriate strategies
+## Asset Analysis
+See individual asset files for detailed analysis:
+- [AIXBT Analysis](aixbt.md)
+- [HOLO Analysis](holo.md)
+- [UBC Analysis](ubc.md)
 
 ## Documentation Updates
 This is a living document that will be updated as KinKong's strategy evolves and improves. All updates will be documented here with corresponding dates.
