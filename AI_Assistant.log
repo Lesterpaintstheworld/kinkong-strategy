@@ -1,0 +1,931 @@
+2025-01-14 03:29:56,245 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:29:56,258 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:29:56,300 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:29:56,300 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:29:56,378 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:29:56,378 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:29:56,386 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x22eb51e52b0 at 22eb5b42450>)
+2025-01-14 03:29:56,386 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:29:56,389 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:29:56,390 - DEBUG - Release <POINTER(IUnknown) ptr=0x22eb51e52f0 at 22eb5b428d0>
+2025-01-14 03:29:56,390 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:29:56,390 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:29:56,391 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x22eb51e52f0 at 22eb5b427d0>
+2025-01-14 03:29:56,391 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x22eb51e5310 at 22eb5b424d0>
+2025-01-14 03:29:56,391 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22eb414b848 at 22eb5b42550>
+2025-01-14 03:29:56,391 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22eb414b8a0 at 22eb5b42650>
+2025-01-14 03:29:56,391 - DEBUG - Release <POINTER(ITypeLib) ptr=0x22eb3b454e0 at 22eb5b428d0>
+2025-01-14 03:29:56,391 - DEBUG - Release <POINTER(IUnknown) ptr=0x22eb51e52b0 at 22eb5b42450>
+2025-01-14 03:29:56,392 - DEBUG - <POINTER(ISpeechVoice) ptr=0x22eb51e52f0 at 22eb5b427d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:29:56,392 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x22eb51e5310 at 22eb5b42450>
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:29:56,393 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:29:56,394 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:29:56,394 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:29:56,394 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:29:56,394 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:29:56,395 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>
+2025-01-14 03:29:56,395 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000022EB588A540>.AddRef() -> 1
+2025-01-14 03:29:56,398 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x22eb51e5318 at 22eb5b43b50>
+2025-01-14 03:29:56,481 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x22e80dfc4f0 at 22eb5b43b50>)
+2025-01-14 03:29:56,482 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x22e80dfc4f0 at 22eb5b43b50>
+2025-01-14 03:29:56,482 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x22eb7c2eee0 at 22eb5b43b50>)
+2025-01-14 03:29:56,483 - DEBUG - Release <POINTER(IUnknown) ptr=0x22eb7cf3300 at 22eb5b43cd0>
+2025-01-14 03:29:56,483 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x22eb52c8d70 at 22eb5b43dd0>)
+2025-01-14 03:29:56,483 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x22eb52c8d70 at 22eb5b43dd0>)
+2025-01-14 03:29:56,483 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:29:56,484 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:29:56,485 - DEBUG - Release <POINTER(IUnknown) ptr=0x22eb414b950 at 22eb5b98050>
+2025-01-14 03:29:56,485 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:29:56,486 - DEBUG - Release <POINTER(IUnknown) ptr=0x22eb52c8d70 at 22eb5b981d0>
+2025-01-14 03:29:56,486 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:29:56,486 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:29:56,486 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x22eb52c8d70 at 22eb5b98050>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(IDispatch) ptr=0x22eb52c8d70 at 22eb5b980d0>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22eb414b950 at 22eb5b98150>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(ITypeLib) ptr=0x22eb3b454e0 at 22eb5b981d0>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(IDispatch) ptr=0x22eb52c8d70 at 22eb5b43dd0>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x22eb7cf3300 at 22eb5b43c50>
+2025-01-14 03:29:56,487 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x22eb7c2eee0 at 22eb5b43b50>
+2025-01-14 03:29:56,488 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x22eb52c8d70 at 22eb5b98050>
+2025-01-14 03:29:56,601 - INFO - Creating UI elements for first time
+2025-01-14 03:29:57,325 - INFO - Scanning for working audio input devices...
+2025-01-14 03:29:57,326 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:29:57,469 - INFO - Default device working
+2025-01-14 03:29:57,469 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,606 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:29:57,606 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,606 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,634 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:29:57,635 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,635 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,635 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,636 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,636 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,777 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:29:57,778 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,917 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:29:57,917 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,950 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:29:57,950 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,950 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,951 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,951 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,951 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,951 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,951 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,952 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,952 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:29:57,952 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,955 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:29:57,955 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,955 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,955 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,956 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,956 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,956 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,956 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,957 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,957 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,957 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,957 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,957 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,957 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,958 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,958 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,958 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,958 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,958 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,958 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:29:57,958 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,959 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,959 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,959 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,959 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:29:57,959 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,959 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:29:57,959 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:29:57,960 - INFO - Found 6 working microphone(s)
+2025-01-14 03:29:57,986 - INFO - Scanning for working audio output devices...
+2025-01-14 03:29:57,987 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:29:58,000 - INFO - Default output device working
+2025-01-14 03:29:58,011 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:29:58,092 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:30:00,116 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:30:00,126 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:30:00,134 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:30:00,143 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:30:00,152 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:30:00,158 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:30:00,162 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:30:00,167 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,168 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:30:00,169 - INFO - Found 8 working output device(s)
+2025-01-14 03:37:45,797 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:37:45,808 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:37:45,838 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:37:45,838 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:37:45,913 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:37:45,913 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:37:45,918 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x2791a9652b0 at 2791b2d23d0>)
+2025-01-14 03:37:45,919 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:37:45,920 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:37:45,921 - DEBUG - Release <POINTER(IUnknown) ptr=0x2791a9652f0 at 2791b2d2850>
+2025-01-14 03:37:45,922 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:37:45,922 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:37:45,923 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x2791a9652f0 at 2791b2d2750>
+2025-01-14 03:37:45,923 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x2791a965310 at 2791b2d2450>
+2025-01-14 03:37:45,923 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2791993cdb8 at 2791b2d24d0>
+2025-01-14 03:37:45,923 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2791993ce10 at 2791b2d25d0>
+2025-01-14 03:37:45,924 - DEBUG - Release <POINTER(ITypeLib) ptr=0x2791942aa30 at 2791b2d2850>
+2025-01-14 03:37:45,924 - DEBUG - Release <POINTER(IUnknown) ptr=0x2791a9652b0 at 2791b2d23d0>
+2025-01-14 03:37:45,925 - DEBUG - <POINTER(ISpeechVoice) ptr=0x2791a9652f0 at 2791b2d2750> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:37:45,925 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x2791a965310 at 2791b2d23d0>
+2025-01-14 03:37:45,926 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:37:45,926 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:37:45,926 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:37:45,926 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:37:45,927 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:37:45,927 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:37:45,927 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:37:45,927 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:37:45,927 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:37:45,928 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:37:45,928 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>
+2025-01-14 03:37:45,928 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002791AE9F3E0>.AddRef() -> 1
+2025-01-14 03:37:45,933 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x2791a965318 at 2791b2d3ad0>
+2025-01-14 03:37:45,971 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x2796643c4f0 at 2791b2d3ad0>)
+2025-01-14 03:37:45,971 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2796643c4f0 at 2791b2d3ad0>
+2025-01-14 03:37:45,972 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x2791d35e160 at 2791b2d3ad0>)
+2025-01-14 03:37:45,973 - DEBUG - Release <POINTER(IUnknown) ptr=0x2791d4230c0 at 2791b2d3c50>
+2025-01-14 03:37:45,973 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x2791aa49820 at 2791b2d3d50>)
+2025-01-14 03:37:45,974 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x2791aa49820 at 2791b2d3d50>)
+2025-01-14 03:37:45,975 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:37:45,975 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:37:45,976 - DEBUG - Release <POINTER(IUnknown) ptr=0x2791993cec0 at 2791b328050>
+2025-01-14 03:37:45,976 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:37:45,976 - DEBUG - Release <POINTER(IUnknown) ptr=0x2791aa49820 at 2791b328150>
+2025-01-14 03:37:45,977 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:37:45,977 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:37:45,977 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x2791aa49820 at 2791b328050>
+2025-01-14 03:37:45,977 - DEBUG - Release <POINTER(IDispatch) ptr=0x2791aa49820 at 2791b2d3ed0>
+2025-01-14 03:37:45,977 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2791993cec0 at 2791b3280d0>
+2025-01-14 03:37:45,977 - DEBUG - Release <POINTER(ITypeLib) ptr=0x2791942aa30 at 2791b328150>
+2025-01-14 03:37:45,977 - DEBUG - Release <POINTER(IDispatch) ptr=0x2791aa49820 at 2791b2d3d50>
+2025-01-14 03:37:45,977 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x2791d4230c0 at 2791b2d3bd0>
+2025-01-14 03:37:45,978 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x2791d35e160 at 2791b2d3ad0>
+2025-01-14 03:37:45,978 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2791aa49820 at 2791b328050>
+2025-01-14 03:37:46,050 - INFO - Creating UI elements for first time
+2025-01-14 03:37:46,623 - INFO - Scanning for working audio input devices...
+2025-01-14 03:37:46,623 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:37:46,770 - INFO - Default device working
+2025-01-14 03:37:46,771 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,911 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:37:46,912 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,912 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,939 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:37:46,939 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,940 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,940 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,940 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:46,940 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,082 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:37:47,082 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,218 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:37:47,219 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,248 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:37:47,249 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,249 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,249 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,250 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,250 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,250 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,251 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,251 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,252 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:37:47,253 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,256 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:37:47,257 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,257 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,257 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,258 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,259 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,259 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,259 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,259 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,259 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,260 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,260 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,260 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,260 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,260 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:37:47,260 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,260 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,261 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,261 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,261 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:37:47,261 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,261 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:37:47,262 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:47,262 - INFO - Found 6 working microphone(s)
+2025-01-14 03:37:47,293 - INFO - Scanning for working audio output devices...
+2025-01-14 03:37:47,294 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:37:47,309 - INFO - Default output device working
+2025-01-14 03:37:47,319 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:37:47,377 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:37:48,420 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:37:48,428 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:37:48,442 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:37:48,448 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:37:48,457 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:37:48,461 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:37:48,463 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:37:48,466 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:37:48,466 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,468 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,468 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,468 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,468 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,469 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,469 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:37:48,469 - INFO - Found 8 working output device(s)
+2025-01-14 03:41:58,445 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:41:58,454 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:41:58,485 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:41:58,485 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:41:58,568 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:41:58,568 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:41:58,573 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x17bc1d152b0 at 17bc26523d0>)
+2025-01-14 03:41:58,573 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:41:58,574 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:41:58,574 - DEBUG - Release <POINTER(IUnknown) ptr=0x17bc1d152f0 at 17bc2652850>
+2025-01-14 03:41:58,575 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:41:58,575 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:41:58,575 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x17bc1d152f0 at 17bc2652750>
+2025-01-14 03:41:58,575 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x17bc1d15310 at 17bc2652450>
+2025-01-14 03:41:58,576 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x17bc0d72028 at 17bc26524d0>
+2025-01-14 03:41:58,576 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x17bc0d72080 at 17bc26525d0>
+2025-01-14 03:41:58,576 - DEBUG - Release <POINTER(ITypeLib) ptr=0x17bc068eb40 at 17bc2652850>
+2025-01-14 03:41:58,576 - DEBUG - Release <POINTER(IUnknown) ptr=0x17bc1d152b0 at 17bc26523d0>
+2025-01-14 03:41:58,576 - DEBUG - <POINTER(ISpeechVoice) ptr=0x17bc1d152f0 at 17bc2652750> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:41:58,576 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x17bc1d15310 at 17bc26523d0>
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:41:58,577 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:41:58,578 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:41:58,578 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:41:58,578 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:41:58,578 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:41:58,578 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>
+2025-01-14 03:41:58,578 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000017BC2396A50>.AddRef() -> 1
+2025-01-14 03:41:58,586 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x17bc1d15318 at 17bc2653ad0>
+2025-01-14 03:41:58,623 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x17b8d8cc4f0 at 17bc2653ad0>)
+2025-01-14 03:41:58,624 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x17b8d8cc4f0 at 17bc2653ad0>
+2025-01-14 03:41:58,625 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x17bc46cdd60 at 17bc2653ad0>)
+2025-01-14 03:41:58,625 - DEBUG - Release <POINTER(IUnknown) ptr=0x17bc4794500 at 17bc2653c50>
+2025-01-14 03:41:58,625 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x17bc1df8f20 at 17bc2653d50>)
+2025-01-14 03:41:58,625 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x17bc1df8f20 at 17bc2653d50>)
+2025-01-14 03:41:58,626 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:41:58,626 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:41:58,627 - DEBUG - Release <POINTER(IUnknown) ptr=0x17bc0d72130 at 17bc26a8050>
+2025-01-14 03:41:58,627 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:41:58,627 - DEBUG - Release <POINTER(IUnknown) ptr=0x17bc1df8f20 at 17bc26a8150>
+2025-01-14 03:41:58,627 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:41:58,627 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:41:58,627 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x17bc1df8f20 at 17bc26a8050>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(IDispatch) ptr=0x17bc1df8f20 at 17bc2653ed0>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x17bc0d72130 at 17bc26a80d0>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(ITypeLib) ptr=0x17bc068eb40 at 17bc26a8150>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(IDispatch) ptr=0x17bc1df8f20 at 17bc2653d50>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x17bc4794500 at 17bc2653bd0>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x17bc46cdd60 at 17bc2653ad0>
+2025-01-14 03:41:58,629 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x17bc1df8f20 at 17bc26a8050>
+2025-01-14 03:41:58,706 - INFO - Creating UI elements for first time
+2025-01-14 03:41:59,272 - INFO - Scanning for working audio input devices...
+2025-01-14 03:41:59,272 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:41:59,408 - INFO - Default device working
+2025-01-14 03:41:59,409 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,548 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:41:59,549 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,549 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,577 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:41:59,577 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,577 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,578 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,578 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,578 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,718 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:41:59,719 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,859 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:41:59,860 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,888 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:41:59,889 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,889 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,889 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,889 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,890 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,890 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,890 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,890 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,891 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:41:59,891 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,895 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:41:59,895 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,895 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,895 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,895 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,895 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,895 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,895 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,895 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,896 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,896 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,896 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,896 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,896 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,896 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,897 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,897 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,897 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,897 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,898 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:41:59,898 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,898 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,898 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,899 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,899 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:41:59,899 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,899 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:41:59,899 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:41:59,899 - INFO - Found 6 working microphone(s)
+2025-01-14 03:41:59,928 - INFO - Scanning for working audio output devices...
+2025-01-14 03:41:59,928 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:41:59,943 - INFO - Default output device working
+2025-01-14 03:41:59,954 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:42:00,013 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:42:01,045 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:42:01,060 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:42:01,067 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:42:01,076 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:42:01,082 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:42:01,085 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:42:01,087 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:42:01,089 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:42:01,089 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,089 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,090 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,090 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,090 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,090 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,091 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:42:01,091 - INFO - Found 8 working output device(s)
+2025-01-14 03:43:42,695 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:43:42,706 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:43:42,740 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:43:42,740 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:43:42,816 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:43:42,816 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:43:42,821 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x1e2f8ad52b0 at 1e2f941a3d0>)
+2025-01-14 03:43:42,822 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:43:42,823 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:43:42,823 - DEBUG - Release <POINTER(IUnknown) ptr=0x1e2f8ad52f0 at 1e2f941a850>
+2025-01-14 03:43:42,824 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:43:42,824 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:43:42,824 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x1e2f8ad52f0 at 1e2f941a750>
+2025-01-14 03:43:42,824 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x1e2f8ad5310 at 1e2f941a450>
+2025-01-14 03:43:42,824 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1e2f7a15598 at 1e2f941a4d0>
+2025-01-14 03:43:42,824 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1e2f7a155f0 at 1e2f941a5d0>
+2025-01-14 03:43:42,824 - DEBUG - Release <POINTER(ITypeLib) ptr=0x1e2f77ab900 at 1e2f941a850>
+2025-01-14 03:43:42,825 - DEBUG - Release <POINTER(IUnknown) ptr=0x1e2f8ad52b0 at 1e2f941a3d0>
+2025-01-14 03:43:42,825 - DEBUG - <POINTER(ISpeechVoice) ptr=0x1e2f8ad52f0 at 1e2f941a750> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:43:42,825 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x1e2f8ad5310 at 1e2f941a3d0>
+2025-01-14 03:43:42,826 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:43:42,826 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:43:42,826 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:43:42,826 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:43:42,826 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:43:42,827 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:43:42,827 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:43:42,827 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:43:42,827 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:43:42,827 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:43:42,827 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>
+2025-01-14 03:43:42,828 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001E2F9156900>.AddRef() -> 1
+2025-01-14 03:43:42,832 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x1e2f8ad5318 at 1e2f941bad0>
+2025-01-14 03:43:42,874 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x1e2c453c4f0 at 1e2f941bad0>)
+2025-01-14 03:43:42,874 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1e2c453c4f0 at 1e2f941bad0>
+2025-01-14 03:43:42,875 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x1e2fb46d4e0 at 1e2f941bad0>)
+2025-01-14 03:43:42,875 - DEBUG - Release <POINTER(IUnknown) ptr=0x1e2fb533de0 at 1e2f941bc50>
+2025-01-14 03:43:42,875 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x1e2f8bb9430 at 1e2f941bd50>)
+2025-01-14 03:43:42,875 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x1e2f8bb9430 at 1e2f941bd50>)
+2025-01-14 03:43:42,876 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:43:42,876 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:43:42,876 - DEBUG - Release <POINTER(IUnknown) ptr=0x1e2f7a156a0 at 1e2f9468050>
+2025-01-14 03:43:42,877 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:43:42,877 - DEBUG - Release <POINTER(IUnknown) ptr=0x1e2f8bb9430 at 1e2f9468150>
+2025-01-14 03:43:42,877 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:43:42,877 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:43:42,878 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x1e2f8bb9430 at 1e2f9468050>
+2025-01-14 03:43:42,878 - DEBUG - Release <POINTER(IDispatch) ptr=0x1e2f8bb9430 at 1e2f941bed0>
+2025-01-14 03:43:42,878 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1e2f7a156a0 at 1e2f94680d0>
+2025-01-14 03:43:42,878 - DEBUG - Release <POINTER(ITypeLib) ptr=0x1e2f77ab900 at 1e2f9468150>
+2025-01-14 03:43:42,878 - DEBUG - Release <POINTER(IDispatch) ptr=0x1e2f8bb9430 at 1e2f941bd50>
+2025-01-14 03:43:42,879 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x1e2fb533de0 at 1e2f941bbd0>
+2025-01-14 03:43:42,879 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x1e2fb46d4e0 at 1e2f941bad0>
+2025-01-14 03:43:42,879 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1e2f8bb9430 at 1e2f9468050>
+2025-01-14 03:43:42,956 - INFO - Creating UI elements for first time
+2025-01-14 03:43:43,486 - INFO - Scanning for working audio input devices...
+2025-01-14 03:43:43,486 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:43:43,640 - INFO - Default device working
+2025-01-14 03:43:43,640 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,777 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:43:43,777 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,778 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,810 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:43:43,810 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,811 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,811 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,812 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,812 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:43,945 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:43:43,946 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,086 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:43:44,086 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,117 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:43:44,117 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,117 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,118 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,118 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,118 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,119 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,119 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,119 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,119 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:43:44,120 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,123 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:43:44,123 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,123 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,124 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,124 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,124 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,124 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,125 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,125 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,125 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,125 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,125 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,125 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,125 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,126 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,126 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,126 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,126 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,127 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,127 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:43:44,127 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,127 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,127 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,127 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,127 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:43:44,127 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,127 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:43:44,128 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,128 - INFO - Found 6 working microphone(s)
+2025-01-14 03:43:44,161 - INFO - Scanning for working audio output devices...
+2025-01-14 03:43:44,161 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:43:44,175 - INFO - Default output device working
+2025-01-14 03:43:44,189 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:43:44,253 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:43:44,272 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:43:44,279 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:43:44,285 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:43:44,290 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:43:44,296 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:43:44,300 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:43:44,303 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:43:44,305 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:43:44,305 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,305 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,305 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,306 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,306 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,306 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,306 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:43:44,306 - INFO - Found 8 working output device(s)
+2025-01-14 03:46:11,077 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:46:11,087 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:46:11,123 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:46:11,124 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:46:11,197 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:46:11,197 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:46:11,203 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x266188652b0 at 266191a2350>)
+2025-01-14 03:46:11,203 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:46:11,205 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:46:11,205 - DEBUG - Release <POINTER(IUnknown) ptr=0x266188652f0 at 266191a27d0>
+2025-01-14 03:46:11,205 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:46:11,205 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:46:11,205 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x266188652f0 at 266191a26d0>
+2025-01-14 03:46:11,205 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x26618865310 at 266191a23d0>
+2025-01-14 03:46:11,205 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2661777e018 at 266191a2450>
+2025-01-14 03:46:11,206 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2661777e070 at 266191a2550>
+2025-01-14 03:46:11,206 - DEBUG - Release <POINTER(ITypeLib) ptr=0x266173022e0 at 266191a27d0>
+2025-01-14 03:46:11,206 - DEBUG - Release <POINTER(IUnknown) ptr=0x266188652b0 at 266191a2350>
+2025-01-14 03:46:11,206 - DEBUG - <POINTER(ISpeechVoice) ptr=0x266188652f0 at 266191a26d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:46:11,206 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x26618865310 at 266191a2350>
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:46:11,207 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:46:11,208 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:46:11,208 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:46:11,208 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>
+2025-01-14 03:46:11,208 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000026618F23E60>.AddRef() -> 1
+2025-01-14 03:46:11,213 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x26618865318 at 266191a3a50>
+2025-01-14 03:46:11,251 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x2666444c4f0 at 266191a3a50>)
+2025-01-14 03:46:11,251 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2666444c4f0 at 266191a3a50>
+2025-01-14 03:46:11,252 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x2661b23e0e0 at 266191a3a50>)
+2025-01-14 03:46:11,252 - DEBUG - Release <POINTER(IUnknown) ptr=0x2661b3037e0 at 266191a3bd0>
+2025-01-14 03:46:11,253 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x26618949820 at 266191a3cd0>)
+2025-01-14 03:46:11,253 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x26618949820 at 266191a3cd0>)
+2025-01-14 03:46:11,253 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:46:11,253 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:46:11,254 - DEBUG - Release <POINTER(IUnknown) ptr=0x2661777e120 at 266191a3e50>
+2025-01-14 03:46:11,254 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:46:11,254 - DEBUG - Release <POINTER(IUnknown) ptr=0x26618949820 at 266191f80d0>
+2025-01-14 03:46:11,254 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:46:11,254 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:46:11,255 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x26618949820 at 266191f8150>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(IDispatch) ptr=0x26618949820 at 266191a3f50>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2661777e120 at 266191f8050>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(ITypeLib) ptr=0x266173022e0 at 266191a3e50>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(IDispatch) ptr=0x26618949820 at 266191a3cd0>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x2661b3037e0 at 266191a3b50>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x2661b23e0e0 at 266191a3a50>
+2025-01-14 03:46:11,255 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x26618949820 at 266191f8150>
+2025-01-14 03:46:11,329 - INFO - Creating UI elements for first time
+2025-01-14 03:46:11,882 - INFO - Scanning for working audio input devices...
+2025-01-14 03:46:11,883 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:46:12,012 - INFO - Default device working
+2025-01-14 03:46:12,012 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,150 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:46:12,151 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,151 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,180 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:46:12,181 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,181 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,181 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,181 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,181 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,317 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:46:12,317 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,455 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:46:12,456 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,487 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:46:12,487 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,487 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,488 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,489 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:46:12,490 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,492 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:46:12,493 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,493 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,494 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,494 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,494 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,494 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,494 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,494 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,494 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,495 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,495 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,495 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,495 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,495 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,495 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,496 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,496 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,496 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,496 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:46:12,496 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,496 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,496 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,496 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,496 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:46:12,497 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,497 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:46:12,497 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,497 - INFO - Found 6 working microphone(s)
+2025-01-14 03:46:12,540 - INFO - Scanning for working audio output devices...
+2025-01-14 03:46:12,540 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:46:12,557 - INFO - Default output device working
+2025-01-14 03:46:12,572 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:46:12,589 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:46:12,604 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:46:12,609 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:46:12,616 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:46:12,622 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:46:12,627 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:46:12,629 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:46:12,633 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:46:12,634 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,635 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:46:12,636 - INFO - Found 8 working output device(s)
+2025-01-14 03:48:27,556 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 03:48:27,566 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 03:48:27,597 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 03:48:27,598 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 03:48:27,674 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 03:48:27,675 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 03:48:27,681 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x1ae928b52b0 at 1ae93252350>)
+2025-01-14 03:48:27,681 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 03:48:27,683 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 03:48:27,684 - DEBUG - Release <POINTER(IUnknown) ptr=0x1ae928b52f0 at 1ae932527d0>
+2025-01-14 03:48:27,684 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:48:27,684 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 03:48:27,684 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x1ae928b52f0 at 1ae932526d0>
+2025-01-14 03:48:27,685 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x1ae928b5310 at 1ae932523d0>
+2025-01-14 03:48:27,685 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1aeff788b78 at 1ae93252450>
+2025-01-14 03:48:27,685 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1aeff788bd0 at 1ae93252550>
+2025-01-14 03:48:27,685 - DEBUG - Release <POINTER(ITypeLib) ptr=0x1aeff3a8cd0 at 1ae932527d0>
+2025-01-14 03:48:27,685 - DEBUG - Release <POINTER(IUnknown) ptr=0x1ae928b52b0 at 1ae93252350>
+2025-01-14 03:48:27,686 - DEBUG - <POINTER(ISpeechVoice) ptr=0x1ae928b52f0 at 1ae932526d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:48:27,686 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x1ae928b5310 at 1ae93252350>
+2025-01-14 03:48:27,687 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 03:48:27,687 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 03:48:27,687 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 03:48:27,687 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 03:48:27,688 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 03:48:27,688 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 03:48:27,688 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 03:48:27,688 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 03:48:27,688 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 03:48:27,688 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 03:48:27,688 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>
+2025-01-14 03:48:27,689 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AE92F96C30>.AddRef() -> 1
+2025-01-14 03:48:27,694 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x1ae928b5318 at 1ae93253a50>
+2025-01-14 03:48:27,734 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x1aede56c4f0 at 1ae93253a50>)
+2025-01-14 03:48:27,734 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1aede56c4f0 at 1ae93253a50>
+2025-01-14 03:48:27,735 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x1ae9519d5e0 at 1ae93253a50>)
+2025-01-14 03:48:27,735 - DEBUG - Release <POINTER(IUnknown) ptr=0x1ae952632a0 at 1ae93253bd0>
+2025-01-14 03:48:27,735 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x1ae92998f20 at 1ae93253cd0>)
+2025-01-14 03:48:27,735 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x1ae92998f20 at 1ae93253cd0>)
+2025-01-14 03:48:27,736 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 03:48:27,736 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 03:48:27,736 - DEBUG - Release <POINTER(IUnknown) ptr=0x1aeff788c80 at 1ae93253e50>
+2025-01-14 03:48:27,736 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 03:48:27,738 - DEBUG - Release <POINTER(IUnknown) ptr=0x1ae92998f20 at 1ae932a80d0>
+2025-01-14 03:48:27,738 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 03:48:27,738 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 03:48:27,738 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x1ae92998f20 at 1ae932a8150>
+2025-01-14 03:48:27,739 - DEBUG - Release <POINTER(IDispatch) ptr=0x1ae92998f20 at 1ae93253f50>
+2025-01-14 03:48:27,739 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1aeff788c80 at 1ae932a8050>
+2025-01-14 03:48:27,739 - DEBUG - Release <POINTER(ITypeLib) ptr=0x1aeff3a8cd0 at 1ae93253e50>
+2025-01-14 03:48:27,739 - DEBUG - Release <POINTER(IDispatch) ptr=0x1ae92998f20 at 1ae93253cd0>
+2025-01-14 03:48:27,739 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x1ae952632a0 at 1ae93253b50>
+2025-01-14 03:48:27,740 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x1ae9519d5e0 at 1ae93253a50>
+2025-01-14 03:48:27,740 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1ae92998f20 at 1ae932a8150>
+2025-01-14 03:48:27,825 - INFO - Creating UI elements for first time
+2025-01-14 03:48:28,391 - INFO - Scanning for working audio input devices...
+2025-01-14 03:48:28,392 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 03:48:28,529 - INFO - Default device working
+2025-01-14 03:48:28,529 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,652 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 03:48:28,654 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,654 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,684 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 03:48:28,684 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,684 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,684 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,685 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,685 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,820 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 03:48:28,822 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,960 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 03:48:28,961 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,988 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 03:48:28,989 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,989 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,989 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,989 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,989 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,989 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,990 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,990 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,991 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 03:48:28,991 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,995 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 03:48:28,995 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,995 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,995 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,995 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,996 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,996 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,996 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,996 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,996 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,996 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,996 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,996 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,997 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,997 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,997 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,997 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,997 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,997 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,997 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 03:48:28,998 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,998 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,998 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,998 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,998 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 03:48:28,998 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,998 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 03:48:28,998 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:28,999 - INFO - Found 6 working microphone(s)
+2025-01-14 03:48:29,027 - INFO - Scanning for working audio output devices...
+2025-01-14 03:48:29,027 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 03:48:29,039 - INFO - Default output device working
+2025-01-14 03:48:29,052 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 03:48:29,065 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 03:48:29,078 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 03:48:29,085 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 03:48:29,090 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 03:48:29,097 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 03:48:29,102 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 03:48:29,105 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 03:48:29,107 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 03:48:29,111 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 03:48:29,111 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,111 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,111 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,112 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,112 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,112 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,112 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 03:48:29,112 - INFO - Found 8 working output device(s)
+2025-01-14 09:29:00,537 - INFO - Log file created at: C:\Users\conta\KinOS_missions\kinkong-strategy\AI_Assistant.log
+2025-01-14 09:29:00,550 - DEBUG - CoInitializeEx(None, 2)
+2025-01-14 09:29:00,598 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-14 09:29:00,598 - INFO - Using writeable comtypes cache directory: 'C:\Python312\Lib\site-packages\comtypes\gen'
+2025-01-14 09:29:00,783 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2025-01-14 09:29:00,784 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2025-01-14 09:29:00,793 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x2abb5a35300 at 2abb6392350>)
+2025-01-14 09:29:00,793 - DEBUG - Does implement IProvideClassInfo
+2025-01-14 09:29:00,799 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2025-01-14 09:29:00,799 - DEBUG - Release <POINTER(IUnknown) ptr=0x2abb5a35340 at 2abb63927d0>
+2025-01-14 09:29:00,800 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 09:29:00,800 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2025-01-14 09:29:00,800 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x2abb5a35340 at 2abb63926d0>
+2025-01-14 09:29:00,800 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x2abb5a35360 at 2abb63923d0>
+2025-01-14 09:29:00,800 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2abb49a4db8 at 2abb6392450>
+2025-01-14 09:29:00,801 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2abb49a4e10 at 2abb6392550>
+2025-01-14 09:29:00,801 - DEBUG - Release <POINTER(ITypeLib) ptr=0x2abb451d2c0 at 2abb63927d0>
+2025-01-14 09:29:00,801 - DEBUG - Release <POINTER(IUnknown) ptr=0x2abb5a35300 at 2abb6392350>
+2025-01-14 09:29:00,803 - DEBUG - <POINTER(ISpeechVoice) ptr=0x2abb5a35340 at 2abb63926d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 09:29:00,803 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x2abb5a35360 at 2abb6392350>
+2025-01-14 09:29:00,804 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.VoiceChange not implemented
+2025-01-14 09:29:00,804 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.Bookmark not implemented
+2025-01-14 09:29:00,805 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.Word not implemented
+2025-01-14 09:29:00,805 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.Sentence not implemented
+2025-01-14 09:29:00,805 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.Phoneme not implemented
+2025-01-14 09:29:00,806 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.Viseme not implemented
+2025-01-14 09:29:00,806 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.AudioLevel not implemented
+2025-01-14 09:29:00,806 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2025-01-14 09:29:00,806 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2025-01-14 09:29:00,807 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2025-01-14 09:29:00,807 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>
+2025-01-14 09:29:00,807 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000002ABB60D3890>.AddRef() -> 1
+2025-01-14 09:29:00,812 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x2abb5a35368 at 2abb6393a50>
+2025-01-14 09:29:00,957 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x2ab816cc460 at 2abb6393a50>)
+2025-01-14 09:29:00,958 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2ab816cc460 at 2abb6393a50>
+2025-01-14 09:29:00,958 - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x2abb823cb20 at 2abb6393a50>)
+2025-01-14 09:29:00,959 - DEBUG - Release <POINTER(IUnknown) ptr=0x2abb8300380 at 2abb6393bd0>
+2025-01-14 09:29:00,959 - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x2abb5b196b0 at 2abb6393cd0>)
+2025-01-14 09:29:00,959 - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x2abb5b196b0 at 2abb6393cd0>)
+2025-01-14 09:29:00,961 - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2025-01-14 09:29:00,961 - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2025-01-14 09:29:00,963 - DEBUG - Release <POINTER(IUnknown) ptr=0x2abb49a4ec0 at 2abb6393e50>
+2025-01-14 09:29:00,963 - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2025-01-14 09:29:00,963 - DEBUG - Release <POINTER(IUnknown) ptr=0x2abb5b196b0 at 2abb63e80d0>
+2025-01-14 09:29:00,964 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2025-01-14 09:29:00,964 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2025-01-14 09:29:00,964 - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x2abb5b196b0 at 2abb63e8150>
+2025-01-14 09:29:00,965 - DEBUG - Release <POINTER(IDispatch) ptr=0x2abb5b196b0 at 2abb6393f50>
+2025-01-14 09:29:00,965 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x2abb49a4ec0 at 2abb63e8050>
+2025-01-14 09:29:00,965 - DEBUG - Release <POINTER(ITypeLib) ptr=0x2abb451d2c0 at 2abb6393e50>
+2025-01-14 09:29:00,965 - DEBUG - Release <POINTER(IDispatch) ptr=0x2abb5b196b0 at 2abb6393cd0>
+2025-01-14 09:29:00,966 - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x2abb8300380 at 2abb6393b50>
+2025-01-14 09:29:00,966 - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x2abb823cb20 at 2abb6393a50>
+2025-01-14 09:29:00,966 - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2abb5b196b0 at 2abb63e8150>
+2025-01-14 09:29:02,379 - INFO - Creating UI elements for first time
+2025-01-14 09:29:04,773 - INFO - Scanning for working audio input devices...
+2025-01-14 09:29:04,774 - INFO - Default input device: Mixage stéréo (Realtek(R) Audio
+2025-01-14 09:29:04,943 - INFO - Default device working
+2025-01-14 09:29:04,943 - DEBUG - Device 0: {'index': 0, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Input', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,114 - INFO - Found working device: Mappeur de sons Microsoft - Input
+2025-01-14 09:29:05,115 - DEBUG - Device 1: {'index': 1, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,115 - DEBUG - Device 2: {'index': 2, 'structVersion': 2, 'name': 'Réseau de microphones (Technolo', 'hostApi': 0, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,168 - INFO - Found working device: Réseau de microphones (Technolo
+2025-01-14 09:29:05,169 - DEBUG - Device 3: {'index': 3, 'structVersion': 2, 'name': 'Mappeur de sons Microsoft - Output', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,169 - DEBUG - Device 4: {'index': 4, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,169 - DEBUG - Device 5: {'index': 5, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,169 - DEBUG - Device 6: {'index': 6, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio De', 'hostApi': 0, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,171 - DEBUG - Device 7: {'index': 7, 'structVersion': 2, 'name': 'Pilote de capture audio principal', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,344 - INFO - Found working device: Pilote de capture audio principal
+2025-01-14 09:29:05,344 - DEBUG - Device 8: {'index': 8, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,523 - INFO - Found working device: Mixage stéréo (Realtek(R) Audio)
+2025-01-14 09:29:05,524 - DEBUG - Device 9: {'index': 9, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 1, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.12, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.24, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,594 - INFO - Found working device: Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)
+2025-01-14 09:29:05,595 - DEBUG - Device 10: {'index': 10, 'structVersion': 2, 'name': 'Périphérique audio principal', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,595 - DEBUG - Device 11: {'index': 11, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,596 - DEBUG - Device 12: {'index': 12, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,597 - DEBUG - Device 13: {'index': 13, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 1, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.12, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.24, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,598 - DEBUG - Device 14: {'index': 14, 'structVersion': 2, 'name': 'Haut-parleurs (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,599 - DEBUG - Device 15: {'index': 15, 'structVersion': 2, 'name': 'Casque (Oculus Virtual Audio Device)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,599 - DEBUG - Device 16: {'index': 16, 'structVersion': 2, 'name': 'Casque (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.0, 'defaultLowOutputLatency': 0.003, 'defaultHighInputLatency': 0.0, 'defaultHighOutputLatency': 0.01, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,599 - DEBUG - Device 17: {'index': 17, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek(R) Audio)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.003, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,601 - DEBUG - Skipping device 17: [Errno -9997] Invalid sample rate
+2025-01-14 09:29:05,601 - DEBUG - Device 18: {'index': 18, 'structVersion': 2, 'name': 'Réseau de microphones (Technologie Intel® Smart Sound pour microphones numériques)', 'hostApi': 2, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.002, 'defaultLowOutputLatency': 0.0, 'defaultHighInputLatency': 0.01, 'defaultHighOutputLatency': 0.0, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,608 - DEBUG - Skipping device 18: [Errno -9997] Invalid sample rate
+2025-01-14 09:29:05,608 - DEBUG - Device 19: {'index': 19, 'structVersion': 2, 'name': 'Output 1 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,608 - DEBUG - Device 20: {'index': 20, 'structVersion': 2, 'name': 'Output 2 (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,609 - DEBUG - Device 21: {'index': 21, 'structVersion': 2, 'name': 'Input (OCULUSVAD Wave Speaker Headphone)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,609 - DEBUG - Skipping device 21: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,609 - DEBUG - Device 22: {'index': 22, 'structVersion': 2, 'name': 'Headset Microphone (OCULUSVAD Wave Microphone Headphone)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,609 - DEBUG - Skipping device 22: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,609 - DEBUG - Device 23: {'index': 23, 'structVersion': 2, 'name': 'Microphone (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,611 - DEBUG - Skipping device 23: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,611 - DEBUG - Device 24: {'index': 24, 'structVersion': 2, 'name': 'Speakers (VDVAD Wave)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.08533333333333333, 'defaultHighOutputLatency': 0.08533333333333333, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,611 - DEBUG - Device 25: {'index': 25, 'structVersion': 2, 'name': 'Mixage stéréo (Realtek HD Audio Stereo input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,612 - DEBUG - Skipping device 25: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,612 - DEBUG - Device 26: {'index': 26, 'structVersion': 2, 'name': 'Headphones 1 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,612 - DEBUG - Device 27: {'index': 27, 'structVersion': 2, 'name': 'Headphones 2 (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,612 - DEBUG - Device 28: {'index': 28, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio 2nd output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,612 - DEBUG - Skipping device 28: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,613 - DEBUG - Device 29: {'index': 29, 'structVersion': 2, 'name': 'Microphone (Realtek HD Audio Mic input)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,613 - DEBUG - Skipping device 29: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,613 - DEBUG - Device 30: {'index': 30, 'structVersion': 2, 'name': 'Speakers 1 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 2, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,613 - DEBUG - Device 31: {'index': 31, 'structVersion': 2, 'name': 'Speakers 2 (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 0, 'maxOutputChannels': 8, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 44100.0}
+2025-01-14 09:29:05,613 - DEBUG - Device 32: {'index': 32, 'structVersion': 2, 'name': 'Haut-parleur du PC (Realtek HD Audio output with SST)', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,614 - DEBUG - Skipping device 32: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,614 - DEBUG - Device 33: {'index': 33, 'structVersion': 2, 'name': 'Réseau de microphones 1 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,614 - DEBUG - Skipping device 33: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,614 - DEBUG - Device 34: {'index': 34, 'structVersion': 2, 'name': 'Réseau de microphones 2 ()', 'hostApi': 3, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 48000.0}
+2025-01-14 09:29:05,614 - DEBUG - Skipping device 34: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,615 - DEBUG - Device 35: {'index': 35, 'structVersion': 2, 'name': 'Réseau de microphones 3 ()', 'hostApi': 3, 'maxInputChannels': 4, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.01, 'defaultLowOutputLatency': 0.01, 'defaultHighInputLatency': 0.04, 'defaultHighOutputLatency': 0.04, 'defaultSampleRate': 16000.0}
+2025-01-14 09:29:05,615 - DEBUG - Skipping device 35: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:05,615 - INFO - Found 6 working microphone(s)
+2025-01-14 09:29:05,714 - INFO - Scanning for working audio output devices...
+2025-01-14 09:29:05,714 - INFO - Default output device: Casque (Realtek(R) Audio)
+2025-01-14 09:29:05,731 - INFO - Default output device working
+2025-01-14 09:29:05,742 - INFO - Found working output device: Mappeur de sons Microsoft - Output
+2025-01-14 09:29:05,754 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio
+2025-01-14 09:29:06,798 - INFO - Found working output device: Casque (Oculus Virtual Audio De
+2025-01-14 09:29:06,815 - INFO - Found working output device: Périphérique audio principal
+2025-01-14 09:29:06,826 - INFO - Found working output device: Casque (Realtek(R) Audio)
+2025-01-14 09:29:06,834 - INFO - Found working output device: Haut-parleurs (Realtek(R) Audio)
+2025-01-14 09:29:06,843 - INFO - Found working output device: Casque (Oculus Virtual Audio Device)
+2025-01-14 09:29:06,847 - DEBUG - Skipping output device 14: [Errno -9997] Invalid sample rate
+2025-01-14 09:29:06,851 - DEBUG - Skipping output device 15: [Errno -9997] Invalid sample rate
+2025-01-14 09:29:06,854 - DEBUG - Skipping output device 16: [Errno -9997] Invalid sample rate
+2025-01-14 09:29:06,855 - DEBUG - Skipping output device 19: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,855 - DEBUG - Skipping output device 20: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,855 - DEBUG - Skipping output device 24: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,855 - DEBUG - Skipping output device 26: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,856 - DEBUG - Skipping output device 27: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,856 - DEBUG - Skipping output device 30: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,856 - DEBUG - Skipping output device 31: [Errno -9999] Unanticipated host error
+2025-01-14 09:29:06,856 - INFO - Found 8 working output device(s)
