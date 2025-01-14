@@ -52,9 +52,17 @@
 
 ## Trading Parameters
 - Position Size: Standard 1-2% of portfolio
-- Stop Loss: 5-8% below entry
-- Risk Management: Standard protocol
+- Stop Loss: 5-8% below entry, wider due to volatility
+- Risk Management: Standard protocol with volatility adjustment
 - Volume Requirements: Medium liquidity threshold
+- Timeframes: 15m for entries, 1h for trend, 4h for confirmation
+
+## Primary Strategy
+- Swing trading approach with trend following
+- Enter on pullbacks to key support levels
+- Scale out: 33% at 1.5:1, 33% at 2.5:1, remainder at 3.5:1
+- Trail stops at 5% below 1h EMA after first target
+- Hold core position for longer trends
 
 ## Key Characteristics
 - Moderate trading volume
