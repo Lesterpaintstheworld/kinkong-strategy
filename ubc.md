@@ -6,6 +6,8 @@
 - Category: Small-cap
 - Risk Profile: High volatility, emerging project
 
+See [UBC Research](coin_analysis/ubc_research.md) for detailed project analysis and tokenomics.
+
 ## Trading Parameters
 - Position Size: Maximum 1% of portfolio
 - Stop Loss: 5-7% below entry
