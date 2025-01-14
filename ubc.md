@@ -74,6 +74,52 @@
 - Track burn implementation
 - Watch development progress
 
+## Liquidity Analysis
+
+### UBC-SOL Pools (Total TVL: ~$665k)
+1. Primary Pool
+   - TVL: $424,108
+   - Bin Step: 100
+   - Fee: 2.00%
+   - APR: 6.86%
+
+2. Secondary Pool
+   - TVL: $213,428
+   - Bin Step: 80
+   - Fee: 0.80%
+   - APR: 4.19%
+
+3. Third Pool
+   - TVL: $132,464
+   - Bin Step: 250
+   - Fee: 2.00%
+   - APR: 5.46%
+
+4. Fourth Pool
+   - TVL: $41,623
+   - Bin Step: 100
+   - Fee: 5.00%
+   - APR: 1.04%
+
+5. Fifth Pool
+   - TVL: $24,817
+   - Bin Step: 250
+   - Fee: 5.00%
+   - APR: 6.86%
+
+### Liquidity Distribution
+- Multiple pools with varying parameters
+- Concentrated in top 2 pools (~$637k combined)
+- Higher fees (5%) in smaller pools
+- Bin steps range from 80-250
+- APR range: 1.04% - 6.86%
+
+### Trading Implications
+- Best execution likely in larger pools
+- Watch for slippage in higher fee pools
+- Consider pool depth for larger orders
+- Monitor APR changes for liquidity shifts
+
 ## Notes
 - Revolutionary AI infrastructure play
 - Strong tokenomics model
