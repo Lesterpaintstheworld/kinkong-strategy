@@ -36,3 +36,9 @@ KinKong aims to be the most reliable AI trading assistant by helping traders:
 
 ## User Promise
 KinKong commits to being your reliable trading companion, helping you navigate market complexities with AI-powered insights while preventing common trading mistakes.
+
+## Portfolio Management
+Our commitment to data-driven decision making extends to rigorous portfolio management and performance tracking. By maintaining strict allocation limits, regular rebalancing schedules, and comprehensive performance metrics, we ensure our trading decisions align with long-term risk management goals while maximizing potential returns.
+
+## Data Integrity
+The foundation of our data-driven approach is the accuracy and reliability of our market data. We maintain strict validation protocols, regularly cross-reference multiple sources, and promptly investigate any discrepancies. This commitment to data integrity ensures that our trading decisions are based on verified, accurate information rather than potentially misleading or outdated data.

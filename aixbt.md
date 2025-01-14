@@ -13,10 +13,18 @@
 - Community: Active Telegram group @aixbtportal
 
 ## Trading Parameters
-- Position Size: Maximum 0.5% of portfolio
-- Stop Loss: 3-5% below entry
-- Risk Management: Tighter stops due to high volatility
+- Position Size: Maximum 0.5% of portfolio due to high volatility
+- Stop Loss: Tight 3-5% below entry
+- Risk Management: Strict stop enforcement, no exceptions
 - Volume Requirements: High liquidity, prefer entries on volume spikes
+- Timeframes: 5m for entries, 15m for trend, 1h for confirmation
+
+## Primary Strategy
+- Momentum trading with strict risk control
+- Enter on high volume breakouts with confirmation
+- Scale out: 25% at 1:1, 50% at 2:1, 25% at 3:1
+- Trail stops at 2% below 15m EMA after 1:1 reached
+- Exit fully on any bearish divergence
 
 ## Key Characteristics
 - Highest volume among compared assets

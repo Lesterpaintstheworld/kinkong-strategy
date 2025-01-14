@@ -67,6 +67,12 @@ See individual asset files for detailed analysis:
 - [HOLO Analysis](holo.md)
 - [UBC Analysis](ubc.md)
 
+## Market Intelligence
+- [Social Media Analysis](social_media_analysis.md) - Cross-project interactions and AI developments
+
+## Portfolio Management
+- [Portfolio Metrics](portfolio_metrics.md) - Risk parameters and allocation targets
+
 ## Documentation Updates
 This is a living document that will be updated as KinKong's strategy evolves and improves. All updates will be documented here with corresponding dates.
 

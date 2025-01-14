@@ -37,6 +37,22 @@
   - [ ] Evaluate market sentiment
   - [ ] Study historical price action
   - [ ] Check liquidity & volume profiles
+  - [ ] HOLO Trading Pair Research
+    - [ ] Research GNON token relationship
+    - [ ] Analyze BGC1 and CWH tokens
+    - [ ] Evaluate non-SOL pair opportunities
+    - [ ] Investigate high APR pools (>400%)
+    - [ ] Assess liquidity provision risks
+  - [ ] Data Validation Setup
+    - [ ] Implement daily metric validation checks
+    - [ ] Configure >10% market cap change alerts
+    - [ ] Create data discrepancy tracking system
+    - [ ] Document validation procedures
+  - [ ] UBC Documentation Review
+    - [ ] Review and summarize whitepaper
+    - [ ] Analyze current tokenomics model
+    - [ ] Research Phase II tokenomics details
+    - [ ] Document findings in ubc_research.md
 
 ## Phase 4: Implementation
 - [ ] Create watchlist of vetted coins
