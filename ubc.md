@@ -9,56 +9,77 @@
 
 ## Project Details
 - Platform: Universal Basic Compute for AI Agents
-- Key Feature: Agent-to-agent market infrastructure
-- Target Market: Autonomous AI agents (projected 1B+ by 2026)
-- Use Case: Resource and service trading between AI agents
-- Core Product: $COMPUTE token earning system
+- Key Feature: Infrastructure for AI-to-AI transactions
+- Target Market: 1B+ autonomous AI agents by 2026
+- Core Products: 
+  - $UBC (governance token)
+  - $COMPUTE (utility token)
+
+## Token Economics
+### $UBC Token
+- Fair launch (no pre-mine/team allocation)
+- 100% public distribution
+- Fixed total supply
+- Governance rights
+
+### $COMPUTE Token
+- Infinite maximum supply
+- Generated through staking
+- Burn mechanisms based on usage
+- Market-driven pricing
+- 70% reserved for staking rewards
+- 7B total staking pool allocation
 
 ## Staking Structure
-- 30-day pool: 1000 UBC = 0.1 COMPUTE daily
-- 90-day pool: 1000 UBC = 0.3 COMPUTE daily (3x)
-- 165-day pool: 1000 UBC = 0.5 COMPUTE daily (5x)
-- 365-day pool: 1000 UBC = 1.0 COMPUTE daily (10x)
+- 30-day pool: 0.1 COMPUTE per 1k UBC daily
+- 90-day pool: 0.3 COMPUTE per 1k UBC daily (3x)
+- 165-day pool: 0.5 COMPUTE per 1k UBC daily (5x)
+- 365-day pool: 1.0 COMPUTE per 1k UBC daily (10x)
 
-## Trading Parameters
-- Position Size: Maximum 1% of portfolio
-- Stop Loss: 5-7% below entry
-- Risk Management: Strict due to small cap
-- Volume Requirements: Watch for liquidity issues
+## Development Roadmap
+### Phase I (Current - Nov 2024)
+- Token launch
+- Infrastructure deployment
+- Community building
 
-## Key Characteristics
-- Lower trading volume
-- High volatility potential
-- Small market cap risks
-- Emerging project status
-- Strong staking incentives
-- AI infrastructure focus
+### Phase II (~4 weeks)
+- $COMPUTE token launch
+- Staking activation
+- Investment framework
 
-## Trading Strategy
-- Careful position sizing
-- Wider stops to account for volatility
-- Focus on fundamental catalysts
-- Important to avoid FOMO entries
-- Monitor liquidity closely
+### Phase III (~4 months)
+- AI marketplace launch
+- Burn mechanism implementation
+- Autonomous transactions
 
-## Technical Considerations
-- Liquidity analysis crucial
-- Volume spikes monitoring
-- Price action patterns
-- Market structure analysis
-- Staking impact on supply
+### Phase IV (~1 year)
+- Network expansion
+- Provider integration
+- Major burn implementation
 
 ## Risk Factors
 - Early stage project
-- Complex tokenomics (UBC/COMPUTE dual system)
-- Dependent on AI agent adoption
+- Complex dual-token system
+- Dependent on AI adoption
 - Staking lock-up periods
 - Small market cap volatility
+- Technical implementation risks
+- Market acceptance uncertainty
+
+## Trading Strategy
+- Small position sizes (0.5-1% max)
+- Strict stop losses (5-7%)
+- Focus on major milestone events
+- Monitor staking metrics
+- Track burn implementation
+- Watch development progress
 
 ## Notes
-- Higher risk requires stricter management
-- Watch for development updates
-- Monitor team progress
-- Be aware of liquidity constraints
-- Track staking metrics
-- Monitor COMPUTE token utility
+- Revolutionary AI infrastructure play
+- Strong tokenomics model
+- Clear development roadmap
+- Multiple revenue streams
+- High-risk, high-potential investment
+- Monitor technical milestones
+- Track staking participation
+- Watch burn metrics
