@@ -12,10 +12,13 @@ This document outlines KinKong's trading methodology and strategy implementation
    - Support/resistance identification
 
 2. **Risk Management**
-   - Position sizing based on risk metrics
-   - Stop-loss implementation
-   - Portfolio diversification
-   - Risk-reward ratio analysis
+   - Position sizing based on volatility (0.5-2% max risk per trade)
+   - Strict stop-loss implementation (3-10% below entry)
+   - Portfolio diversification (max 5% allocation per coin)
+   - Risk-reward ratio minimum 2:1
+   - Tighter stops for volatile assets (AIXBT: 3-5%, UBC: 5-7%)
+   - Reduced position sizes for high-volatility pairs (AIXBT: 0.5% max)
+   - Extra caution during high volatility periods
 
 3. **Market Psychology**
    - FOMO prevention
@@ -57,6 +60,25 @@ This document outlines KinKong's trading methodology and strategy implementation
 - Team assessment
 - Tokenomics review
 - Development activity
+
+## Comparative Analysis
+- **Market Cap Comparison**:
+  - AIXBT: $576.0M (Large-cap)
+  - HOLO: $320M (Mid-cap)
+  - UBC: $22.5M (Small-cap)
+- **Volume Profile**:
+  - AIXBT: Highest volume ($493.4M)
+  - HOLO: Moderate volume ($25M)
+  - UBC: Lower volume ($4.0M)
+- **Risk Assessment**:
+  - AIXBT: High volatility, strong momentum
+  - HOLO: Moderate volatility, steady growth
+  - UBC: High volatility, emerging project
+- **Trading Considerations**:
+  - Position sizing inversely proportional to volatility
+  - Stricter risk management for smaller caps
+  - Volume-based entry timing
+  - Market cap appropriate strategies
 
 ## Documentation Updates
 This is a living document that will be updated as KinKong's strategy evolves and improves. All updates will be documented here with corresponding dates.
